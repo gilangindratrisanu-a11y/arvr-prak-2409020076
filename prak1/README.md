@@ -2,7 +2,7 @@
 
 - Nama : Gilang Indra Trisanu
 - NIM  : 2409020076
-- Link : https://gilangindratrisanu-a11y.github.io/arvr-prak-2409020076/
+- Link : https://github.com/gilangindratrisanu-a11y/arvr-prak-2409020076
 
 Project ini berisi scene WebXR pertama menggunakan A-Frame 1.7.1 (Ruang Perkenalan Diri).
 
