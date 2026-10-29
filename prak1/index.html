@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Praktikum 1 - Perkenalan Diri (Gilang Indra Trisanu)</title>
+  <script src="https://aframe.io/releases/1.7.1/aframe.min.js"></script>
+</head>
+<body>
+  <a-scene>
+    <!-- Teks Perkenalan Diri -->
+    <a-text value="Gilang Indra Trisanu\nNIM: 2409020076" position="0 2.5 -3" align="center" color="#222222" width="6"></a-text>
+
+    <!-- 1. Kotak (Box) dengan Animasi Putar -->
+    <a-box position="-1.5 0.75 -3" 
+           rotation="0 45 0" 
+           color="#4CC3D9"
+           animation="property: rotation; to: 0 405 0; loop: true; dur: 6000; easing: linear">
+    </a-box>
+
+    <!-- 2. Bola (Sphere) -->
+    <a-sphere position="0 1.25 -4.5" 
+              radius="1" 
+              color="#EF2D5E">
+    </a-sphere>
+
+    <!-- 3. Silinder (Cylinder) -->
+    <a-cylinder position="1.5 0.75 -3" 
+                radius="0.5" 
+                height="1.5"
+                color="#FFC65D">
+    </a-cylinder>
+
+    <!-- Kerucut Tambahan (Cone) -->
+    <a-cone position="0 2.75 -4" 
+            radius-bottom="0.6" 
+            height="1.2" 
+            color="#9b59b6">
+    </a-cone>
+
+    <!-- Lantai (Plane) -->
+    <a-plane position="0 0 -4" 
+             rotation="-90 0 0" 
+             width="8" 
+             height="8"
+             color="#7BC8A4">
+    </a-plane>
+
+    <!-- Latar Belakang Langit (Sky) -->
+    <a-sky color="#E0F7FA"></a-sky>
+  </a-scene>
+</body>
+</html>
